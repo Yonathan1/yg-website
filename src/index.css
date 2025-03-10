@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0A1320;
+  --color-darkNavy: #050B15;
+  --color-brown: #5A463F;
+  --color-lightBrown: #74665E;
+  --color-black: #101417;
+  --color-white: #E6DED7;
+  --color-cyan: #0FA8C8;
+  --color-lightCyan: #71C8D8;
+  --color-darkCyan: #00758A;
+  --color-orange: #D9891B;
+  --color-lightOrange: #E6B670;
+  --color-darkOrange: #AD6F18;
+  --color-grey: #505A5E;
+  --color-lightGrey: #8C7E77;
+  --color-darkGrey: #2B3133;
+  --font-body: "Josefin Sans", "sans-serif"; 
+  --font-special: "Nunito", "sans-serif";
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --breakpoint-sm: 350px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+body {
+  @apply bg-darkNavy;
+}

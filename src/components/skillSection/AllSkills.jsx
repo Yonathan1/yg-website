@@ -58,7 +58,7 @@ const AllSkills = () => {
                         whileInView="show"
                         viewport={{once: false, amount: 0}}
                     >
-                        <SingleSkill key={index} text={item.skill} imgSvg={<item.icon />} />
+                        <SingleSkill key={item.skill} text={item.skill} imgSvg={<item.icon />} />
                     </motion.div>
                 )
             })}

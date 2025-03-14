@@ -11,7 +11,7 @@ import SubSkills from './components/skillSection/SubSkills';
 function App() {
 
   return (
-    <main className='font-body'>
+    <main className='font-body overflow-x-hidden w-screen'>
       <NavbarMain />
       <HeroMain />
       <SubHeroSection />

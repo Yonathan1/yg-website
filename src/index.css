@@ -27,3 +27,7 @@
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1536px;
 }
+
+body {
+  @apply bg-darkNavy;
+}

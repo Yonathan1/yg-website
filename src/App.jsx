@@ -7,6 +7,7 @@ import SubHeroSection from './components/heroSection/SubHeroSection';
 import NavbarMain from './components/navbar/NavbarMain';
 import SkillsMain from './components/skillSection/SkillsMain';
 import SubSkills from './components/skillSection/SubSkills';
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <ExperienceMain />
       <ContactMeMain />
       <FooterMain />
+      <Analytics />
     </main>
   );
 }
